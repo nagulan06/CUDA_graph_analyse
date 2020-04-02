@@ -98,21 +98,6 @@ find_length(struct graph *g)
     return obj;
 }
 
-/*
-int
-find_length(struct node *temp)
-{
-    int i=0;
-    while(temp != NULL)
-    {
-        temp = temp->next;
-        i++;
-    }
-    
-    return i;
-}
-*/
-
 int main()
 {
     FILE *in = fopen("dblp-co-authors.txt", "r");
